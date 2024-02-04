@@ -1,0 +1,152 @@
+{
+    "saladList": [
+      {
+        "name": "Grilled Chicken Caesar Salad",
+        "type": "nonveg",
+        "price":10,
+        "image": "grilled_chicken_caesar_salad.jpg",
+        "description": "Classic Caesar salad with grilled chicken, crisp romaine lettuce, and Caesar dressing.",
+        "ingredients": [
+          "Romaine lettuce",
+          "Grilled chicken breast",
+          "Croutons",
+          "Parmesan cheese",
+          "Caesar dressing"
+        ]
+      },
+      {
+        "name": "Shrimp Avocado Salad",
+        "type": "nonveg",
+        "price":12,
+        "image": "shrimp_avocado_salad.jpg",
+        "description": "Fresh salad with succulent shrimp, avocado, cherry tomatoes, and a zesty lime dressing.",
+        "ingredients": [
+          "Shrimp",
+          "Avocado",
+          "Cherry tomatoes",
+          "Mixed greens",
+          "Lime vinaigrette"
+        ]
+      },
+      {
+        "name": "Cobb Salad with Bacon and Eggs",
+        "type": "nonveg",
+        "image": "cobb_salad_bacon_eggs.jpg",
+        "price":7,
+        "description": "Hearty Cobb salad featuring bacon, hard-boiled eggs, grilled chicken, and blue cheese.",
+        "ingredients": [
+          "Mixed greens",
+          "Grilled chicken",
+          "Bacon",
+          "Hard-boiled eggs",
+          "Avocado",
+          "Blue cheese",
+          "Ranch dressing"
+        ]
+      },
+      {
+        "name": "Salmon Nicoise Salad",
+        "type": "nonveg",
+        "image": "salmon_nicoise_salad.jpg",
+        "price":9,
+        "description": "A flavorful Nicoise salad with grilled salmon, potatoes, green beans, and olives.",
+        "ingredients": [
+          "Salmon fillet",
+          "Potatoes",
+          "Green beans",
+          "Cherry tomatoes",
+          "Olives",
+          "Dijon vinaigrette"
+        ]
+      },
+      {
+        "name": "Thai Beef Salad",
+        "type": "nonveg",
+        "image": "thai_beef_salad.jpg",
+        "price":9,
+        "description": "Spicy and tangy Thai-inspired salad with grilled beef, fresh vegetables, and lime dressing.",
+        "ingredients": [
+          "Grilled beef strips",
+          "Mixed greens",
+          "Cucumber",
+          "Carrots",
+          "Cherry tomatoes",
+          "Lime dressing"
+        ]
+      },
+      {
+        "name": "Caprese Salad",
+        "type": "veg",
+        "image": "caprese_salad.jpg",
+        "price":7,
+
+        "description": "Classic Italian salad with fresh tomatoes, mozzarella, basil, and balsamic glaze.",
+        "ingredients": [
+          "Tomatoes",
+          "Fresh mozzarella",
+          "Fresh basil",
+          "Balsamic glaze",
+          "Olive oil"
+        ]
+      },
+      {
+        "name": "Greek Salad",
+        "type": "veg",
+        "image": "greek_salad.jpg",
+        "price":6,
+        "description": "Refreshing Greek salad with tomatoes, cucumbers, olives, feta, and Greek dressing.",
+        "ingredients": [
+          "Cucumbers",
+          "Tomatoes",
+          "Red onion",
+          "Kalamata olives",
+          "Feta cheese",
+          "Greek dressing"
+        ]
+      },
+      {
+        "name": "Quinoa and Roasted Vegetable Salad",
+        "type": "veg",
+        "image": "quinoa_roasted_vegetable_salad.jpg",
+        "price":9,
+        "description": "Nutritious salad with quinoa, roasted vegetables, chickpeas, and lemon-tahini dressing.",
+        "ingredients": [
+          "Quinoa",
+          "Zucchini",
+          "Cherry tomatoes",
+          "Chickpeas",
+          "Lemon-tahini dressing"
+        ]
+      },
+      {
+        "name": "Mango Avocado Spinach Salad",
+        "type": "veg",
+        "image": "mango_avocado_spinach_salad.jpg",
+        "price":6,
+        "description": "Vibrant spinach salad with ripe mango, avocado, red onion, and a citrus vinaigrette.",
+        "ingredients": [
+          "Baby spinach",
+          "Mango",
+          "Avocado",
+          "Red onion",
+          "Citrus vinaigrette"
+        ]
+      },
+      {
+        "name": "Couscous and Chickpea Salad",
+        "type": "veg",
+        "price":6,
+        "image": "couscous_chickpea_salad.jpg",
+        "description": "Mediterranean-inspired salad with couscous, chickpeas, tomatoes, and feta.",
+        "ingredients": [
+          "Couscous",
+          "Chickpeas",
+          "Tomatoes",
+          "Cucumber",
+          "Feta cheese",
+          "Lemon dressing"
+        ]
+      }
+    ]
+  }
+  

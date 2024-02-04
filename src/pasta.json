@@ -1,0 +1,311 @@
+{
+    "pastaList": [
+      {
+        "name": "Margherita Pesto Pasta",
+        "type": "veg",
+        "image": "margherita_pesto_pasta.jpg",
+        "description": "Delicious pasta with fresh tomatoes, mozzarella, and basil pesto.",
+        "price":8,
+
+        "ingredients": [
+          "Penne pasta",
+          "Cherry tomatoes",
+          "Fresh mozzarella",
+          "Basil pesto",
+          "Garlic",
+          "Olive oil"
+        ]
+      },
+      {
+        "name": "Roasted Vegetable Primavera",
+        "type": "veg",
+        "price":9,
+        "image": "roasted_vegetable_primavera.jpg",
+        "description": "Colorful pasta dish with roasted vegetables and a light olive oil dressing.",
+        "ingredients": [
+          "Fusilli pasta",
+          "Zucchini",
+          "Bell peppers",
+          "Cherry tomatoes",
+          "Olive oil",
+          "Fresh herbs"
+        ]
+      },
+      {
+        "name": "Creamy Mushroom Alfredo",
+        "type": "veg",
+        "price":9,
+        "image": "creamy_mushroom_alfredo.jpg",
+        "description": "Fettuccine pasta in a creamy Alfredo sauce with sautéed mushrooms.",
+        "ingredients": [
+          "Fettuccine",
+          "Mushrooms",
+          "Alfredo sauce",
+          "Parmesan cheese",
+          "Garlic",
+          "Parsley"
+        ]
+      },
+      {
+        "name": "Caprese Pasta Salad",
+        "type": "veg",
+        "price":12,
+
+        "image": "caprese_pasta_salad.jpg",
+        "description": "Refreshing pasta salad with cherry tomatoes, fresh mozzarella, and balsamic glaze.",
+        "ingredients": [
+          "Rotini pasta",
+          "Cherry tomatoes",
+          "Fresh mozzarella",
+          "Basil",
+          "Balsamic glaze"
+        ]
+      },
+      {
+        "name": "Spinach and Artichoke Linguine",
+        "type": "veg",
+        "image": "spinach_artichoke_linguine.jpg",
+        "price":12,
+        "description": "Linguine pasta tossed with a creamy spinach and artichoke sauce.",
+        "ingredients": [
+          "Linguine",
+          "Spinach",
+          "Artichoke hearts",
+          "Cream sauce",
+          "Parmesan cheese",
+          "Garlic"
+        ]
+      },
+      {
+        "name": "Pumpkin Sage Ravioli",
+        "type": "veg",
+        "price":9,
+
+        "image": "pumpkin_sage_ravioli.jpg",
+        "description": "Autumn-inspired ravioli filled with pumpkin and topped with sage butter sauce.",
+        "ingredients": [
+          "Pumpkin-filled ravioli",
+          "Butter",
+          "Fresh sage",
+          "Parmesan cheese"
+        ]
+      },
+      {
+        "name": "Tomato Basil Penne",
+        "type": "veg",
+        "image": "tomato_basil_penne.jpg",
+        "price":23,
+
+        "description": "Simple and flavorful penne pasta with a tomato and basil sauce.",
+        "ingredients": [
+          "Penne pasta",
+          "Tomato sauce",
+          "Fresh basil",
+          "Garlic",
+          "Olive oil"
+        ]
+      },
+      {
+        "name": "Broccoli Pesto Cavatappi",
+        "type": "veg",
+        "image": "broccoli_pesto_cavatappi.jpg",
+        "price":12,
+        "description": "Cavatappi pasta with a vibrant broccoli pesto and cherry tomatoes.",
+        "ingredients": [
+          "Cavatappi",
+          "Broccoli pesto",
+          "Cherry tomatoes",
+          "Parmesan cheese",
+          "Pine nuts"
+        ]
+      },
+      {
+        "name": "Mushroom Spinach Lasagna",
+        "type": "veg",
+        "price":12,
+
+        "image": "mushroom_spinach_lasagna.jpg",
+        "description": "Layered lasagna with mushrooms, spinach, and creamy béchamel sauce.",
+        "ingredients": [
+          "Lasagna noodles",
+          "Mushrooms",
+          "Spinach",
+          "Bechamel sauce",
+          "Parmesan cheese"
+        ]
+      },
+      {
+        "name": "Asparagus Lemon Orzo",
+        "type": "veg",
+        "price":24,
+        "image": "asparagus_lemon_orzo.jpg",
+        "description": "Orzo pasta with tender asparagus and a zesty lemon dressing.",
+        "ingredients": [
+          "Orzo",
+          "Asparagus",
+          "Lemon vinaigrette",
+          "Parmesan cheese",
+          "Fresh parsley"
+        ]
+      }
+    ],
+    "nonVegPastaList": [
+      {
+        "name": "Chicken Pesto Penne",
+        "type": "nonveg",
+        "image": "chicken_pesto_penne.jpg",
+        "price":12,
+        "description": "Penne pasta with grilled chicken and a flavorful basil pesto sauce.",
+        "ingredients": [
+          "Penne pasta",
+          "Grilled chicken",
+          "Basil pesto",
+          "Cherry tomatoes",
+          "Parmesan cheese",
+          "Garlic"
+        ]
+      },
+      {
+        "name": "Spicy Sausage Rigatoni",
+        "type": "nonveg",
+        "image": "spicy_sausage_rigatoni.jpg",
+        "description": "Rigatoni pasta with spicy Italian sausage and a hearty tomato sauce.",
+        "price":12,
+
+        "ingredients": [
+          "Rigatoni",
+          "Spicy Italian sausage",
+          "Tomato sauce",
+          "Bell peppers",
+          "Onions",
+          "Garlic"
+        ]
+      },
+      {
+        "name": "Shrimp Scampi Linguine",
+        "type": "nonveg",
+        "image": "shrimp_scampi_linguine.jpg",
+        "price":12,
+
+        "description": "Linguine pasta with succulent shrimp in a garlic and lemon butter sauce.",
+        "ingredients": [
+          "Linguine",
+          "Shrimp",
+          "Garlic butter sauce",
+          "Lemon",
+          "Parsley",
+          "Parmesan cheese"
+        ]
+      },
+      {
+        "name": "Beef and Mushroom Stroganoff",
+        "type": "nonveg",
+        "image": "beef_mushroom_stroganoff.jpg",
+        "price":12,
+
+        "description": "Egg noodles with tender beef strips and creamy mushroom stroganoff sauce.",
+        "ingredients": [
+          "Egg noodles",
+          "Beef strips",
+          "Mushrooms",
+          "Sour cream",
+          "Onions",
+          "Dijon mustard"
+        ]
+      },
+      {
+        "name": "Lemon Garlic Chicken Fettuccine",
+        "type": "nonveg",
+        "image": "lemon_garlic_chicken_fettuccine.jpg",
+        "price":12,
+
+        "description": "Fettuccine pasta with grilled chicken in a tangy lemon garlic cream sauce.",
+        "ingredients": [
+          "Fettuccine",
+          "Grilled chicken",
+          "Lemon garlic cream sauce",
+          "Parmesan cheese",
+          "Parsley"
+        ]
+      },
+      {
+        "name": "Turkey and Spinach Cannelloni",
+        "type": "nonveg",
+        "image": "turkey_spinach_cannelloni.jpg",
+        "price":12,
+
+        "description": "Cannelloni stuffed with ground turkey, spinach, and ricotta, baked in marinara sauce.",
+        "ingredients": [
+          "Cannelloni tubes",
+          "Ground turkey",
+          "Spinach",
+          "Ricotta cheese",
+          "Marinara sauce",
+          "Mozzarella cheese"
+        ]
+      },
+      {
+        "name": "Lamb Ragu Pappardelle",
+        "type": "nonveg",
+        "image": "lamb_ragu_pappardelle.jpg",
+        "price":12,
+
+        "description": "Pappardelle pasta with slow-cooked lamb ragu and red wine sauce.",
+        "ingredients": [
+          "Pappardelle",
+          "Lamb shoulder",
+          "Tomato-Red wine sauce",
+          "Carrots",
+          "Celery",
+          "Onions"
+        ]
+      },
+      {
+        "name": "Bacon and Tomato Spaghetti",
+        "type": "nonveg",
+        "image": "bacon_tomato_spaghetti.jpg",
+        "price":12,
+        "description": "Spaghetti with crispy bacon, cherry tomatoes, and garlic in a light olive oil sauce.",
+        "ingredients": [
+          "Spaghetti",
+          "Bacon",
+          "Cherry tomatoes",
+          "Garlic",
+          "Olive oil",
+          "Basil"
+        ]
+      },
+      {
+        "name": "Salmon Alfredo Tagliatelle",
+        "type": "nonveg",
+        "image": "salmon_alfredo_tagliatelle.jpg",
+        "description": "Tagliatelle pasta with flaky salmon and a creamy Alfredo sauce.",
+        "price":12,
+
+        "ingredients": [
+          "Tagliatelle",
+          "Salmon fillet",
+          "Alfredo sauce",
+          "Parmesan cheese",
+          "Dill",
+          "Lemon zest"
+        ]
+      },
+      {
+        "name": "Cajun Shrimp and Andouille Pasta",
+        "type": "nonveg",
+        "image": "cajun_shrimp_andouille_pasta.jpg",
+        "price":12,
+        "description": "Penne pasta with Cajun-seasoned shrimp, Andouille sausage, and a spicy cream sauce.",
+        "ingredients": [
+          "Penne pasta",
+          "Shrimp",
+          "Andouille sausage",
+          "Cajun seasoning",
+          "Cream sauce",
+          "Bell peppers"
+        ]
+      }
+    ]
+  }
+  
