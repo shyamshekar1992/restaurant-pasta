@@ -7,6 +7,7 @@ const PastaCard = ({ pasta, onAddToCart }) => {
 
   const handleAddClick = () => {
     onAddToCart(pasta, quantity);
+    setQuantity(1); // Reset quantity to 1 after adding to the cart
   };
 
   return (

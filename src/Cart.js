@@ -1,6 +1,8 @@
 // Cart.js
 import React from 'react';
 import { Button, Typography } from '@mui/material';
+import { ElementsConsumer, Elements } from "@stripe/react-stripe-js";
+import { loadStripe } from "@stripe/stripe-js";
 
 const Cart = ({ cartItems, onRemoveFromCart }) => {
   const calculateTotalPrice = () => {

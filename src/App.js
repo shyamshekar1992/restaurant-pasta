@@ -6,7 +6,6 @@ import DetailPage from './DetailPage';
 import pastaData from './pasta.json';
 import saladData from './salat.json';
 import Cart from './Cart';
-
 const App = () => {
   const [value, setValue] = useState(0);
   const [cartItems, setCartItems] = useState([]);
@@ -23,24 +22,25 @@ const App = () => {
   };
 
   // App.js
-const handleAddToCart = (item) => {
-  setCartItems((prevItems) => {
-    const existingItemIndex = prevItems.findIndex((existingItem) => existingItem.name === item.name);
+  const handleAddToCart = (item, quantity) => {
+    setCartItems((prevItems) => {
+      const existingItemIndex = prevItems.findIndex((existingItem) => existingItem.name === item.name);
 
-    if (existingItemIndex !== -1) {
-      // If the item already exists in the cart, update its quantity
-      const updatedItems = [...prevItems];
-      updatedItems[existingItemIndex].quantity += 1;
-      localStorage.setItem('cartItems', JSON.stringify(updatedItems));
-      return updatedItems;
-    } else {
-      // If the item is not in the cart, add it with quantity 1
-      const newCartItems = [...prevItems, { ...item, quantity: 1 }];
-      localStorage.setItem('cartItems', JSON.stringify(newCartItems));
-      return newCartItems;
-    }
-  });
-};
+      if (existingItemIndex !== -1) {
+        // If the item already exists in the cart, update its quantity
+        const updatedItems = [...prevItems];
+        updatedItems[existingItemIndex].quantity += quantity;
+        localStorage.setItem('cartItems', JSON.stringify(updatedItems));
+        return updatedItems;
+      } else {
+        // If the item is not in the cart, add it with the specified quantity
+        const newCartItems = [...prevItems, { ...item, quantity }];
+        localStorage.setItem('cartItems', JSON.stringify(newCartItems));
+        return newCartItems;
+      }
+    });
+  };
+
 
 
 const handleRemoveFromCart = (index) => {
